@@ -1,0 +1,34 @@
+{
+  "name": "rufio-filter-mustache",
+  "version": "1.0.0",
+  "description": "A rufio filter for mustache templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && mocha"
+  },
+  "keywords": [
+    "rufio",
+    "filter",
+    "stream",
+    "mustache"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "devDependencies": {
+    "happiness": "^5.5.0",
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/rufio-filter-mustache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wesleytodd/rufio-filter-mustache/issues"
+  },
+  "homepage": "https://github.com/wesleytodd/rufio-filter-mustache",
+  "dependencies": {
+    "mustache": "^2.2.1",
+    "pluralize": "^1.2.1",
+    "through2": "^2.0.1"
+  }
+}
